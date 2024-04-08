@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.heading {
+    position: relative;
+    color: white;
+}
+
+.clock {
+    width: 450px;
+    height: 450px;
+    background-image: url(/images/clock.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 9999;
+}
+
+.clock .hour,
+.clock .min,
+.clock .sec {
+
+    position: absolute;
+}
+
+.clock .hour .hr {
+    width: 160px;
+    height: 160px;
+    transform: rotateZ(0deg);
+}
+
+.hr,
+.mn,
+.sc {
+    position: absolute;
+    display: flex;
+}
