@@ -14,7 +14,7 @@
 :root {
     --bg-color: #f1f1f1;
     --second-bg-color: #f9f9f9;
-    --main-color: hsl(317, 51%, 79%);
+    --main-color: hsl(250, 51%, 79%);
     --text-color: #333;
     --primary-color: #d759ad;
     --secondary-color: #6c757d;
@@ -34,26 +34,24 @@ body {
     color: var(--text-color);
 }
 
-.button-container {
+.buttons-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    /* Adjust the space between buttons */
+    flex-direction: column;
+    gap: 20px;
     padding: 20px;
 }
 
 .day-button {
-    flex: 1;
-    min-width: 200px;
-    /* Adjust button width */
+    width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: var(--second-bg-color);
     color: white;
     border: none;
+    border-radius: var(--border-radius);
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .day-button:hover {
-    background-color: #0056b3;
+    background-color: var(--bg-color);
 }
