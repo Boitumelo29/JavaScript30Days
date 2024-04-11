@@ -17,7 +17,7 @@
     --main-color: hsl(250, 51%, 79%);
     --text-color: #333;
     --primary-color: #d759ad;
-    --secondary-color: #6c757d;
+    --secondary-color: #484e52;
     --text-color: #333;
     --border-color: #e0e0e0;
     --border-radius: 8px;
@@ -45,7 +45,7 @@ body {
     width: 100%;
     padding: 10px;
     background-color: var(--second-bg-color);
-    color: white;
+    color: black;
     border: none;
     border-radius: var(--border-radius);
     cursor: pointer;
