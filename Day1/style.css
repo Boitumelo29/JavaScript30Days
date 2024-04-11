@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: grey;
 }
 
 
@@ -31,7 +31,6 @@ header {
 
 .heading {
     position: relative;
-    color: white;
 }
 
 .clock {
@@ -49,7 +48,7 @@ header {
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: white;
+    background-color: green;
     border-radius: 50%;
     z-index: 9999;
 }
@@ -64,7 +63,19 @@ header {
 .clock .hour .hr {
     width: 160px;
     height: 160px;
-    transform: rotateZ(0deg);
+
+}
+
+.clock .min .mn {
+    width: 190px;
+    height: 190px;
+
+}
+
+.clock .sec .sc {
+    width: 220px;
+    height: 2200px;
+
 }
 
 .hr,
@@ -72,4 +83,35 @@ header {
 .sc {
     position: absolute;
     display: flex;
+    justify-content: center;
+}
+
+.hr::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 80px;
+    background: orange;
+    border-radius: 6px 6px 0 0;
+    z-index: 10;
+}
+
+.mn::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 90px;
+    background: white;
+    border-radius: 6px 6px 0 0;
+    z-index: 11;
+}
+
+.sc::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 150px;
+    background: greenyellow;
+    border-radius: 6px 6px 0 0;
+    z-index: 12;
 }
