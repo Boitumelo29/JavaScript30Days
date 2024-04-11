@@ -32,26 +32,40 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
+    min-height: 100vh;
 }
 
-.buttons-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
+.heading {
+    padding-top: 100px;
+    text-align: start;
+    font-size: 20rem;
 }
 
-.day-button {
-    width: 100%;
-    padding: 10px;
-    background-color: var(--second-bg-color);
-    color: black;
+.btn {
+    margin: 20px auto;
+    padding: 15px 60px;
+    display: block;
     border: none;
-    border-radius: var(--border-radius);
+    border-radius: 5px;
+    background: white;
+    color: #000;
+    font-size: 1.5rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
-.day-button:hover {
-    background-color: var(--bg-color);
+.btn:hover {
+    background-color: blue;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 33.3%;
+    height: 150px;
+    background: white;
+    border: 2px solid;
+    border-radius: 5%;
 }
