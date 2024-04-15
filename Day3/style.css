@@ -40,3 +40,42 @@ body {
     text-align: start;
     font-size: 20rem;
 }
+
+.clock {
+    position: relative;
+    width: 450px;
+    height: 150px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.clock .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock .container h2 {
+    font-size: 3.5rem;
+    color: black;
+}
+
+.clock .container h2:nth-child(odd) {
+    padding: 5px 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+#ampm {
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
+    top: 30px;
+    font-size: 1rem;
+    font-weight: 700;
+}
