@@ -35,11 +35,11 @@ body {
     min-height: 100vh;
 }
 
-.heading {
+/* .heading {
     padding-top: 100px;
     text-align: start;
-    font-size: 20rem;
-}
+    font-size: 10rem;
+} */
 
 .clock {
     position: relative;
