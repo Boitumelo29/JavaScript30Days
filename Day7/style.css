@@ -13,7 +13,7 @@
 }
 
 :root {
-    --bg-color: #93909050;
+    --bg-color: black;
     --second-bg-color: #f9f9f9;
     --main-color: hsl(250, 51%, 79%);
     --text-color: #333;
@@ -38,10 +38,31 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: white;
 }
 
 .heading {
     padding-bottom: 50px;
     font-size: 2rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+#img {
+    width: 150px;
+    height: 150px;
+}
+
+#btn {
+    position: relative;
+    margin-top: 50px;
+    padding: 5px;
+    color: #000;
+    font-size: 24px;
+    background-color: white;
+    border-radius: 10%;
+    font-weight: 200;
+    cursor: pointer;
 }
