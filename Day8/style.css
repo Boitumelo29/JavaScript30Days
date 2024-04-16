@@ -41,28 +41,23 @@ body {
     color: white;
 }
 
-.heading {
-    padding-bottom: 50px;
-    font-size: 2rem;
-}
-
-img {
-    max-width: 100%;
-}
-
-#img {
-    width: 150px;
-    height: 150px;
-}
-
-#btn {
+#emoji-btn {
     position: relative;
     margin-top: 50px;
-    padding: 5px;
+    padding: 15px;
+    border: none;
     color: #000;
-    font-size: 24px;
+    font-size: 5rem;
     background-color: white;
     border-radius: 10%;
     font-weight: 200;
     cursor: pointer;
+    transition: transform .2s ease-in;
+    cursor: pointer;
+}
+
+#emoji-btn:hover {
+    transform: scale(1.3);
+    filter: grayscale(0);
+    background: white;
 }
