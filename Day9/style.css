@@ -40,3 +40,24 @@ body {
     align-items: center;
     color: white;
 }
+
+.section {
+    padding: 2%;
+    background: white;
+    border-radius: 20px;
+}
+
+.heading {
+    font-size: 48px;
+    color: #000;
+}
+
+#color-picker {
+    width: 35%;
+    display: block;
+    margin: 10px auto;
+    padding: none;
+    background: none;
+    border-radius: 5px;
+
+}
