@@ -50,7 +50,7 @@ body {
 .heading {
     padding-bottom: 50px;
     font-size: 48px;
-    color: #000;
+    color: white;
 }
 
 .img-container {
@@ -58,6 +58,7 @@ body {
     height: 400px;
     background-color: white;
     align-content: center;
+    align-items: center;
     border-radius: 3%;
 }
 
