@@ -15,8 +15,26 @@ for (let i = 0; i < row; i++) {
 
 circleArr.forEach((cols, i) => {
     cols.forEach((circle, j) => {
-        circle.addEventListiner('click', () => {
-            //stopped at 3:33
+        circle.addEventListener('click', () => {
+            growCircle(i, j);
         })
     })
 })
+
+function growCircle(i, j) {
+
+    if (circleArr[i] && circleArr[i][j] && !circleArr[i][j].classList.container('grow')) {
+        circleArr[i][j].classList.add('grow');
+
+        setTimeout(() => {
+            growCircle(i - 1, j);
+            growCircle(i + 1, j);
+            growCircle(i, 1 - j);
+            growCircle(i, 1 + j);
+        }, 100);
+
+        setTimeout(() => {
+            circleArr[i][j].classList.remove('grow');
+        }, 300);
+    }
+}

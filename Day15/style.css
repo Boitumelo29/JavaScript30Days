@@ -66,3 +66,17 @@ body {
 .circle.grow {
     transform: scale(2);
 }
+
+.circle {
+    width: 14px;
+    height: 14px;
+    margin: 8px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform .3s linear;
+}
+
+.circle.grow {
+    transform: scale(2);
+}
