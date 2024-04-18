@@ -44,5 +44,33 @@ body {
 .heading {
     padding-bottom: 50px;
     font-size: 48px;
-    color: #000;
+    color: white;
+}
+
+.box {
+    width: 400px;
+    padding: 1rem;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+p {
+    padding: 1rem;
+    font-size: 20px;
+    color: black;
+}
+
+button {
+    padding: 1rem;
+    border: none;
+    border-radius: 9%;
+    background: black;
+    color: white;
+    transition: .1s linear;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #333;
 }
