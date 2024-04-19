@@ -53,45 +53,19 @@ body {
     color: white;
 }
 
-.wrapper {
-    width: 90vmin;
-}
-
-.container {
-    padding: 50px 30px 30px 30px;
+#result {
+    width: 600px;
+    padding: 80px 40px;
     background: white;
     border-radius: 10px;
-}
-
-textarea {
-    width: 100%;
-    border: none;
-    resize: none;
-    outline: none;
     font-size: 2rem;
-    line-height: 32px;
-    color: black;
-
-}
-
-
-.count {
-    position: relative;
-    width: 80%;
-    padding: 20px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: black;
-    display: flex;
-    justify-content: space-around;
     text-align: center;
-    border-radius: 10px;
+    color: black;
 }
 
-h5 {
-    font-size: 5rem;
-}
-
-p {
+#result h2 {
+    padding: 0.5rem;
     font-size: 2rem;
+    text-transform: uppercase;
+    color: red;
 }
