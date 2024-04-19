@@ -4,12 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* text-decoration: none;
+    text-decoration: none;
     user-select: none;
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
@@ -41,14 +41,41 @@ body {
     color: white;
 }
 
-.section {
-    padding: 2%;
-    background: white;
-    border-radius: 20px;
-}
-
 .heading {
     padding-bottom: 50px;
     font-size: 48px;
     color: white;
+}
+
+.copy-text {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: #333;
+    outline: none;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    font-size: 2rem;
+    outline: none;
+    cursor: pointer;
+}
+
+button:active {
+    background: #484e52;
 }
