@@ -1,7 +1,6 @@
-const button = document.querySelector('button');
+const progress = document.querySelector('.progress-done');
 
-button.addEventListener('click', function () {
-    let input = document.querySelector('input');
-    input.select();
-    document.execCommand('copy');
-})
+setInterval(() => {
+    progress.style.width = progress.dataset.width;
+    progress.style.opacity = 1;
+}, 500);
