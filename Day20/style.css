@@ -4,12 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    /* text-decoration: none;
     user-select: none;
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; */
 }
 
 :root {
@@ -51,4 +51,14 @@ body {
     padding-bottom: 50px;
     font-size: 48px;
     color: white;
+}
+
+#output {
+    width: 500px;
+    padding: 50px 30px;
+    background: white;
+    border-radius: 10px;
+    font-size: 2rem;
+    text-align: center;
+    color: black;
 }
