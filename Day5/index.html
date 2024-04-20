@@ -3,14 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 04</title>
+    <title>Day 05</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header> 
         <a href="/index.html"><h1> < Day04</h1></a>
     </header>
-   
+    <div class="section"> <h2 class="heading">Dynamic Form Fields</h2> 
+    <div id="survey_options">
+        <input type="text" name="survey_options []"  size="50" placeholder="Name" class="survey_options">
+        <input type="text" name="survey_options []"  size="50" placeholder="Email" class="survey_options">
+        <input type="text" name="survey_options []"  size="50" placeholder="Another Field" class="survey_options">
+    </div>
+    <div class="controls">
+        <a href="" id="add_fields">Add</a>
+        <a href="" id="remove_fields">Remove</a>
+    </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
