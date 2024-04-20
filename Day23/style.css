@@ -38,11 +38,39 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
 }
 
 .heading {
     padding-bottom: 50px;
     font-size: 48px;
-    color: white;
+    color: black;
+}
+
+.container {
+    width: 45vw;
+    padding: 6em 3em;
+    background: white;
+    border-radius: 10px;
+    color: black;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+label {
+    display: block;
+    font-size: 1.4rem;
+}
+
+input {
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 300;
+    outline: none;
+    color: black;
 }
