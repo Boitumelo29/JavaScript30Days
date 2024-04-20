@@ -35,10 +35,15 @@ body {
     min-height: 100vh;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
 .heading {
-    padding-top: 100px;
-    text-align: start;
-    font-size: 20rem;
+    position: relative;
 }
 
 .btn {
