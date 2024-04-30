@@ -48,24 +48,25 @@ body {
 }
 
 .container {
-    width: 45vw;
-    padding: 6em 3em;
+    width: 35vw;
+    padding: 3em 3em;
     background: white;
     border-radius: 10px;
     color: black;
 }
 
-.input-box {
+.input-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 label {
     display: block;
-    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 input {
+    margin: .6rem;
     padding: 1rem;
     border: 1px solid black;
     border-radius: 5px;
@@ -73,4 +74,28 @@ input {
     font-weight: 300;
     outline: none;
     color: black;
+}
+
+button {
+    display: block;
+    padding: 20px 30px;
+    background: black;
+    color: white;
+    margin: 2rem auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+button:active {
+    background: blue;
+}
+
+#output {
+    padding: 1rem;
+    background: black;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
 }
