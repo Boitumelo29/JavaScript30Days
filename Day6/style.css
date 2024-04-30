@@ -79,8 +79,8 @@ button {
 .counter-container {
     position: relative;
     width: 100%;
-    max-width: 30rem;
-    height: 30rem;
+    max-width: 14rem;
+    height: 14rem;
     background: white;
     margin: 1rem auto;
     display: flex;
