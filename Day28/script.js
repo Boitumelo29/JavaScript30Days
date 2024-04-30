@@ -1,7 +1,9 @@
-const button = document.querySelector('button');
+const toast = document.getElementById('wrapper-toast');
 
-button.addEventListener('click', function () {
-    let input = document.querySelector('input');
-    input.select();
-    document.execCommand('copy');
-})
+function showToast() {
+    toast.style.transform = 'translateX(0px)'
+}
+
+function closeToast() {
+    toast.style.transform = 'translateX(400px)'
+}

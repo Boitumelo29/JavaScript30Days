@@ -10,15 +10,15 @@
 <body>
     <header><a href="/index.html"><h1>< Day28</h1></a></header>
     <h2 class="heading">Toast Notification</h2>
-    <div class="wrapper-toast">
+    <div id="wrapper-toast">
         <i class='bx bxs-check-square'></i>
         <div class="text">
             <h4>Success</h4>
             <p>Your Change Has Been Saved</p>
         </div>
-        <button>&times;</button>
+        <button onclick="closeToast()">&times;</button>
     </div>
-    <button class="btn-toast">Show Toast</button>
+    <button class="btn-toast" onclick="showToast()">Show Toast</button>
     <script src="script.js"></script>
 </body>
 </html>
