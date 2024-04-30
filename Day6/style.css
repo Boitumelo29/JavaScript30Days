@@ -60,3 +60,61 @@ button {
     border: none;
     cursor: pointer;
 }
+
+
+.btn-reset {
+    display: block;
+    margin: 2.5rem auto;
+    padding: 1.5rem;
+    background: white;
+    color: #333;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+.btn-reset:active {
+    background: red;
+}
+
+.counter-container {
+    position: relative;
+    width: 100%;
+    max-width: 30rem;
+    height: 30rem;
+    background: white;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+}
+
+.counter {
+    font-size: 4rem;
+    color: black;
+}
+
+.btn-operator {
+    position: absolute;
+    width: 3.8rem;
+    height: 3.8rem;
+    background: black;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 3.5rem;
+}
+
+.btn-operator:active {
+    background: blue;
+}
+
+.increase {
+    bottom: 10%;
+    right: -15%;
+}
+
+.decrease {
+    bottom: -10%;
+    right: 15%;
+}
