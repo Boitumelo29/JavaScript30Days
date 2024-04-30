@@ -47,16 +47,7 @@ body {
     color: white;
 }
 
-.copy-text {
-    position: relative;
-    display: flex;
-    padding: 10px;
-    background: white;
-    border-radius: 10px;
-    justify-content: space-around;
-}
-
-input {
+.wrapper input {
     padding: 10px;
     border: none;
     font-size: 18px;
