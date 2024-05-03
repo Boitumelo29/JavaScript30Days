@@ -48,32 +48,12 @@ body {
 }
 
 .container {
-    width: 35vw;
-    padding: 3em 3em;
+    width: 450px;
+    padding: 30px 40;
     background: white;
     border-radius: 10px;
     color: black;
-}
-
-.input-wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-
-label {
-    display: block;
-    font-weight: 600;
-}
-
-input {
-    margin: .6rem;
-    padding: 1rem;
-    border: 1px solid black;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: 300;
-    outline: none;
-    color: black;
+    text-align: center;
 }
 
 button {
