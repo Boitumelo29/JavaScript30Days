@@ -38,7 +38,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: white;
 }
 
 .heading {
@@ -73,6 +73,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     line-height: 2.2;
+    transition: var(--bg-color);
 }
 
 .bullet .completed {
@@ -102,9 +103,11 @@ button {
     cursor: pointer;
 }
 
-/* button:active {
-    background: blue;
-} */
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    /* background: blue; */
+}
 
 #prev-btn {
     background: red;
