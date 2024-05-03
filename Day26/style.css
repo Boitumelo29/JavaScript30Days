@@ -56,6 +56,15 @@ body {
     text-align: center;
 }
 
+.progress-bar {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+
 button {
     display: block;
     padding: 20px 30px;
