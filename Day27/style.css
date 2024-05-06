@@ -47,35 +47,15 @@ body {
     color: white;
 }
 
-.copy-text {
-    position: relative;
-    display: flex;
-    padding: 10px;
+.container {
+    width: 320px;
+    margin: 0 auto;
     background: white;
-    border-radius: 10px;
-    justify-content: space-around;
+    color: black;
+    text-align: center;
 }
 
-input {
-    padding: 10px;
-    border: none;
-    font-size: 18px;
-    color: #333;
-    outline: none;
-    border-radius: 10px;
-}
-
-button {
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    background: blue;
-    color: white;
-    font-size: 2rem;
-    outline: none;
-    cursor: pointer;
-}
-
-button:active {
-    background: #484e52;
+.char-img {
+    width: 125px;
+    border-radius: 50%;
 }
