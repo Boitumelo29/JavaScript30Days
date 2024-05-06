@@ -55,3 +55,41 @@ header {
     color: black;
     position: relative;
 }
+
+.tag-input {
+    position: absolute;
+    width: 500px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    color: black;
+}
+
+.tag-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.tag-input .tag-list {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tag-input .item {
+    padding: 5px 8px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    user-select: none;
+}
+
+.tag-input .delete-btn {
+    cursor: pointer;
+}
