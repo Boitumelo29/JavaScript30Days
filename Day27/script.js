@@ -4,3 +4,8 @@ async function getPost() {
     }).then(function (data) {
         addItemsCollection(data);
     })
+}
+
+function addItemsCollection(data) {
+
+}
