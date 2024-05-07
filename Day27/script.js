@@ -7,5 +7,7 @@ async function getPost() {
 }
 
 function addItemsCollection(data) {
-
+    const newElement = document.createElement('div')
+    newElement.classList.add('item')
+    newElement.innerHTML = (``)
 }
