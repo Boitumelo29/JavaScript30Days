@@ -1,6 +1,6 @@
-const sc = document.querySelector('#sc');
-const hr = document.querySelector('#hr');
-const mn = document.querySelector('#mn');
+const sc = document.getElementById('sc');
+const hr = document.getElementById('hr');
+const mn = document.getElementById('mn');
 
 const deg = 6;
 
