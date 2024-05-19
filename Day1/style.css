@@ -48,19 +48,17 @@ header {
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: green;
+    background-color: purple;
     border-radius: 50%;
     z-index: 9999;
 }
 
-.clock .hour,
-.clock .min,
-.clock .sec {
+/* .clock>.hour {
 
     position: absolute;
-}
+} */
 
-.clock .hour .hr {
+.clock>.hour>.hr {
     width: 160px;
     height: 160px;
 
